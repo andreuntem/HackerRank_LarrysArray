@@ -11,7 +11,7 @@ def larrysArray(A):
     n_A = len(A)
     n_sub_A = 3
     sorted_A = sorted(A)
-    # print(A, '>>>', sorted_A, ', len = ',n_A, ', n_sub_A = ', n_sub_A)
+    #print(A, '>>>', sorted_A, ', len = ',n_A, ', n_sub_A = ', n_sub_A)
 
     # Order all elements until (n_A - 3)
     for correct_pos in range(n_A - n_sub_A + 1):
